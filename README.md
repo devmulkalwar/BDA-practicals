@@ -60,3 +60,12 @@ lt$a=20
 print("list after modification:\n") 
 print(lt)
 ```
+
+## Practical 6: Write an R Program to create a Matrix from a Vector using dim() function. 
+
+## Code:
+```R
+mat <- c(32,12,53,41,64,23,74,28) 
+dim(mat) <- c(4,2) 
+print(mat)
+```
