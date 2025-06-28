@@ -69,3 +69,20 @@ mat <- c(32,12,53,41,64,23,74,28)
 dim(mat) <- c(4,2) 
 print(mat)
 ```
+
+## Practical 7: Write an R Program to create a List and modify its components. 
+
+## Code: 
+```R
+lt = list( 
+ a=10, 
+ char_vector=letters[1:4], 
+ mat1=matrix(c(1,2,3,4,5,6), nrow = 2), 
+ mat2=matrix(1:6, nrow = 3) 
+) 
+print("list before modificaiton:\n") 
+print(lt) 
+lt$a=20 
+print("list after modification:\n") 
+print(lt)
+```
