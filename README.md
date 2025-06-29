@@ -86,3 +86,11 @@ lt$a=20
 print("list after modification:\n") 
 print(lt)
 ```
+
+## Practical 8: Write an R Program to create a Data Frame. 
+
+## Code: 
+```R
+fm = data.frame(index=c(1:6), char=letters[1:6]) 
+print(fm)
+```
