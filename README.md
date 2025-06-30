@@ -94,3 +94,15 @@ print(lt)
 fm = data.frame(index=c(1:6), char=letters[1:6]) 
 print(fm)
 ```
+
+## Practical 9: Write an R Program to access a Data Frame like a List.
+
+## Code: 
+```R
+dfm = data.frame(index=c(1:6), char=letters[1:6]) 
+cat("Before Accessing:\n") 
+print(dfm) 
+dfm$index=c(100,106) 
+cat("After Accessing:\n") 
+print(dfm)
+```
