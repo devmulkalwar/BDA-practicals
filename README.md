@@ -106,3 +106,15 @@ dfm$index=c(100,106)
 cat("After Accessing:\n") 
 print(dfm)
 ```
+
+## Practical 10: Write an R Program to access a Data Frame like a Matrix.
+
+## Code: 
+```R
+dfm = data.frame(index=c(1:6), char=letters[1:6]) 
+cat(“Before Accessing:\n”) 
+print(dfm) 
+dfm[[1]]=c(10,16) 
+cat(“After Accessing:\n”) 
+print(dfm) 
+```
