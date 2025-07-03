@@ -48,3 +48,29 @@ print("After extend:", fruits)
 fruits.clear()
 print("After clear:", fruits)
 ```
+
+## Practical 2: Write a python program to add two numbers.
+
+## Code:
+```py
+# Python program to add two numbers using class and function
+
+class Adder:
+    def __init__(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
+
+    def add(self):
+        return self.num1 + self.num2
+
+# Input from the user
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+# Create an object of the Adder class
+addition = Adder(a, b)
+
+# Call the add method and print the result
+result = addition.add()
+print(f"The sum of {a} and {b} is: {result}")
+```
