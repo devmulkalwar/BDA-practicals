@@ -22,6 +22,7 @@ Authentication
 - JWT Authentication
 - Secure Password Encryption using BCrypt
 - Forgot Password
+- Reset Password
 - Logout
 - Profile Management
 
