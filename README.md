@@ -160,9 +160,3 @@ The generated backend should resemble code written by an experienced Senior Spri
 ```
 ----
 
-## API KEYS
-```
-CLOUDINARY_CLOUD_NAME=di1870vlc
-CLOUDINARY_API_KEY=788182224567539
-CLOUDINARY_API_SECRET=s0m1CFjZQMev6PZsQLqxB2xTmkg
-```
